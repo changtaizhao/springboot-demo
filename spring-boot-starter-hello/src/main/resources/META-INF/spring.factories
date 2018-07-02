@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.changtai.spring_boot_starter_hello.HelloServiceAutoConfiguration  
+com.changtai.spring_boot_starter_hello.HelloServiceAutoConfiguration

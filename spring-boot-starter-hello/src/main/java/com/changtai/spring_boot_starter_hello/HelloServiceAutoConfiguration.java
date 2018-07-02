@@ -26,7 +26,7 @@ public class HelloServiceAutoConfiguration {
     @ConditionalOnMissingBean(HelloService.class)
     public HelloService helloService(){
         HelloService helloService = new HelloService();
-        helloService.setMsg(helloService.getMsg());
+        helloService.setMsg(helloServiceProerties.getMsg());
         return helloService;
     }
 
