@@ -26,11 +26,14 @@
 <script th:src="@{stomp.js}"></script>
 <script th:src="@{jquery.js}"></script>
 <script type="text/javascript">
+
+    var stompClient = null;
+
     function setConnected(connected) {
         document.getElementById('connect').disabled = connected;
         document.getElementById('disconnect').disabled = !connected;
         document.getElementById('conversationDiv').style.visibility = connected ? 'visible' : 'hidden';
-        ${'#response'}.html();
+        $('#response').html();
     }
 
     function connect() {
