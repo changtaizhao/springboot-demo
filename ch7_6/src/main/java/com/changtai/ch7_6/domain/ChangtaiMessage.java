@@ -1,4 +1,4 @@
-package com.changtai.ch7_6;
+package com.changtai.ch7_6.domain;
 
 /**
  * @Auther: zhaoct
